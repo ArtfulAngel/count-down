@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.app__content {
+
+  display: block;
+        flex-direction: column;
+  position: relative;
+  justify-content:  space-between;
+
+}
+
+.app__row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.1rem;
+}
+.app__input {
+  display: flex;
+ 
+  width: 70px;
+  margin: 0.1rem;
+}
+
