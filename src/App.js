@@ -5,9 +5,9 @@ import Circle from './component/circle';
 
 class App extends Component {
   state = {
-    minutes: 0,
+    minutes: 1,
     seconds: 10,
-    strokeDashoffsetMinutes: 440,
+    strokeDashoffsetMinutes: 0,
     strokeDashoffsetSeconds: 0,
   };
 
